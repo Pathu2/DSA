@@ -1,0 +1,14 @@
+1. When to use Binary Search?
+We will use binary search when we have to optimize the things like we have to 
+find the maximum or minium, in this case we can use the binary search.
+
+2. What approch we have to use while we have to the binary search?
+We have to determine what is low and what is high and can be the default ans.
+We should have an idea what should be the range of my ans, like in case of rotated array
+it can be from 0 to length -1 as we have to print the index of the array. While, in case of
+painter_partition lo should be maximum of the timing for each partition and maximum when 
+we have only 1 painter. 
+After this is done we have to implement the check function, which will return 0 or 1
+depending on the mid element. 
+
+#Which means range and check function.
